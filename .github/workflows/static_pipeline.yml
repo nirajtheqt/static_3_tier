@@ -20,5 +20,5 @@ jobs:
 
       - name: Upload Files to S3
         run: |
-            aws s3 sync ./ s3://my-tf-saniakurup-bucket/ 
+            aws s3 sync ./ s3://my-tf-nir-static-bucket-12254/ 
       # Replace with your bucket name and path
